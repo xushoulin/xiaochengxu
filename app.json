@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/join/join",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F44B00",
+    "navigationBarTitleText": "这是第一个测试小程序",
+    "navigationBarTextStyle":"whild"
+  },
+  "tabBar": {
+    "selectedColor": "#F44B00",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/bannerclose@2x.png",
+      "selectedIconPath": "images/bannerdown@2x.png"
+    },
+    {
+      "pagePath": "pages/join/join",
+      "text": "加入",
+      "iconPath": "images/bannerclose@2x.png",
+      "selectedIconPath": "images/bannerdown@2x.png"
+    }]
+  }
+}
